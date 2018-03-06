@@ -1,0 +1,10 @@
+2018-02-20T20:51:00+00:00 CRITICAL Uncaught Error: Call to a member function get_url() on null in /var/www/vhost/joonts.com/home/html/web/wp-content/plugins/revslider/includes/object-library.class.php:62
+Stack trace:
+#0 /var/www/vhost/joonts.com/home/html/web/wp-content/plugins/revslider/admin/revslider-admin.class.php(118): RevSliderObjectLibrary->_get_list()
+#1 /var/www/vhost/joonts.com/home/html/web/wp-content/plugins/revslider/admin/revslider-admin.class.php(44): RevSliderAdmin->init()
+#2 /var/www/vhost/joonts.com/home/html/web/wp-content/plugins/revslider/revslider.php(168): RevSliderAdmin->__construct('/var/www/vhost/...')
+#3 /var/www/vhost/joonts.com/home/html/web/wp-admin/includes/plugin.php(555): include_once('/var/www/vhost/...')
+#4 /var/www/vhost/joonts.com/home/html/web/wp-admin/includes/plugin.php(747): activate_plugin('revslider/revsl...', '', false, false)
+#5 /var/www/vhost/joonts.com/home/html/web/wp-content/themes/intact/core/assets/extra/class-tgm-plugin-activation.php(2976): activate_plugins(Array)
+#6 /var/www/vhost/joonts.c
+
